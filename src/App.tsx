@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Features from './pages/Features'
 import Skills from './pages/Skills'
+import Project from './pages/Project'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/features' element={<Features />} />
         <Route path='/skills' element={<Skills />} />
+        <Route path='/projects' element={<Project />} />
       </Routes>
     </>
   )
